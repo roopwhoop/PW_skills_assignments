@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Sono', sans-serif;
+}
+body{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+
+	background-color: #1c1c1c;
+}
+body > header > h1{
+	color: aqua;
+}
+body > main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0px;
+}
+#op-block-head{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+#op-block-head > span{
+	padding: 7px 18px;
+
+	border-top: 2px solid rgb(139, 84, 130);
+	border-bottom: 2px solid rgb(139, 84, 130) ;
+
+	color: whitesmoke;
+	font-size: 20px;
+	font-weight: 600;
+}
+#op-block-head > span:first-child{
+	border-left: 2px solid rgb(139, 84, 130);
+}
+#op-block-head > span:last-child{
+	border-right: 2px solid rgb(139, 84, 130);
+}
+
+
+#op-block-items{
+	display: flex;
+	flex-direction: column;
+	color: white;
+}
+.row{
+	display: flex;
+	border-right: 2px solid rgb(139, 84, 130);
+	border-bottom: 2px solid rgb(139, 84, 130);
+	border-left: 2px solid rgb(139, 84, 130);
+}
+.row > span{
+	padding: 7px 18px;
+}
+
+#op-block-head > span:nth-child(1){
+	width: 40px;
+}
+.row > span:nth-child(1){
+	width: 40px;
+	display: inline-block;
+	text-align: center;
+}
+#op-block-head > span:nth-child(2){
+	width: 55px;
+}
+.row > span:nth-child(2){
+	width: 55px;
+	display: inline-block;
+	text-align: center;
+}
+#op-block-head > span:nth-child(3){
+	width: 65px;
+}
+.row > span:nth-child(3){
+	width: 65px;
+	display: inline-block;
+	text-align: center;
+}
+#op-block-head > span:nth-child(4){
+	width: 65px;
+}
+.row > span:nth-child(4){
+	width: 65px;
+	display: inline-block;
+	text-align: center;
+}
+
+#btn-change{
+	margin-top: 20px;
+	padding: 10px 20px;
+
+	background-color: transparent;
+	border: 2px solid aqua;
+	border-radius: 20px;
+
+	color: white;
+	font-size: 22px;
+
+	cursor: pointer;
+}
+#btn-change:active{
+	transform: scale(1.05);
+}
