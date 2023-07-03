@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px 0 60px;
+    margin-top: 55px;
+  }
+  
+  .list {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+    list-style: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffc233;
+  }
+  
+  .logo,
+  .list-item {
+    cursor: pointer;
+  }
+  
+  .buttonsmall {
+    padding: 7px 25px;
+    background-color: #ff505f;
+    border: none;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  /*hero*/
+  
+  .hero {
+    max-width: 1154px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 119px;
+  }
+  
+  .heroheading{
+    font-family: "Dela Gothic One", cursive;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 100px;
+    line-height: 150px;
+    color: #ffc233;
+  }
+  
+  .buttonlarge{
+    background: #ff505f;
+    font-family: "Red Rose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+    border: none;
+    padding: 10px 40px;
+    margin-top: 64px;
+    cursor: pointer;
+  }
+  
+  .bottom {
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+    width: 9%
+  }
